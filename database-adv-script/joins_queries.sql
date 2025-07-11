@@ -51,7 +51,7 @@ FROM bookings
     
 LEFT JOIN users ON bookings.user_id = users.user_id;
 
--- LEFT JOIN: Retrieve all properties and their reviews, including properties that have no reviews
+LEFT JOIN : Retrieve all properties and their reviews, including properties that have no reviews
 SELECT 
     properties.property_id,
     properties.title,
